@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['alicanakca/pixera', 'arifszn/hypopt'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['alicanakca/pixera', 'alicanakca/hypopt'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,33 +33,33 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'pixera',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Pixera will have formed the basis for machines that make Pixel Art.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://pixera.app/assets/images/logo.png',
+          link: 'https://pixera.app',
         },
         {
-          title: 'Project Name',
+          title: 'hypopt',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Provides to optimize the hyperparameters using Reinforcement Learning. Term Project for the Optimization course at Izmir University of Economics.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://www.gymlibrary.dev/_static/img/gym_logo_white.svg',
+          link: 'https://github.com/AlicanAKCA/hypOpt',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Alican Akca',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'alicanakca',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
@@ -70,72 +70,73 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.pixera.app',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'alicanakca.381@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Python',
+    'R',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Traick',
+      position: 'AI Intern',
+      from: 'October 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      companyLink: 'https://traick.ai',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'R Programming',
+      body: 'Coursera',
+      year: 'Jun 2022',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/REG3232T3Z8A',
+    },
+    {
+      name: 'Fundamentals of Visualization with Tableau',
+      body: 'Coursera',
+      year: 'Jun 2021',
+      link: 'https://www.coursera.org/verify/KC3XWQQA6A4U',
+    },
+    {
+      name: 'Machine Learning',
+      body: 'Coursera',
+      year: 'May 2021',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/GFZM39A4N8KL',
+    },
+    {
+      name: 'Neural Networks and Deep Learning',
+      body: 'Coursera',
+      year: 'Jun 2021',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/HC9KT7Q62VAP',
+    },
+    {
+      name: 'Python for Data Science, AI & Development',
+      body: 'Coursera',
+      year: 'Jun 2022',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/THUVXGC8NL3Z',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Izmir University of Economics',
+      degree: 'Bachelor Degree',
+      from: '2020',
+      to: '2025',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'alicanakca', // to hide blog section, keep it empty
     limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
